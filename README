@@ -1,4 +1,6 @@
-1. Install & Start Starling
+This is just an example project displaying an ajax progress bar using feedback from a background job.
+
+I'm using workling/starling for my background process in this example.
 
 gem sources -a http://gems.github.com/ 
 sudo gem install starling-starling 
