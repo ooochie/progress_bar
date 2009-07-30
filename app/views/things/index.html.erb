@@ -1,0 +1,16 @@
+
+<div>
+  <h2 id="status-message">Processing...</h2>
+  <div id="progress_bar_outline">
+    <div id="progress"></div>
+  </div>
+  <div id="percentage">0%</div>
+  <div style="clear:both;"><!-- clear --></div>
+</div>
+
+
+<script type="text/javascript" charset="utf-8">
+  var periodical = new PeriodicalExecuter(function(pe){
+                        new Ajax.Request("/progress", {method: 'get', parameters: {uid: '<%= @uid %>', size: <%= @data.size %>}})
+                      }, 1);
+</script>

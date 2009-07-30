@@ -1,0 +1,2369 @@
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/client_runner.rb:2
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/starling_runner.rb:1
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote.rb:3
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_without_new_constant_marking'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:376:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:256:in `require_or_load'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:422:in `load_missing_constant'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:19:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `send'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `run'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/environment.rb:13
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:3
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:257:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:139:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from ./script/workling_client:17
+	from script/workling_starling_client:7:in `load'
+	from script/workling_starling_client:7
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/client_runner.rb:2
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/starling_runner.rb:1
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote.rb:3
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_without_new_constant_marking'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:376:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:256:in `require_or_load'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:422:in `load_missing_constant'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:19:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `send'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `run'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/environment.rb:13
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:3
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:257:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:139:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/client_runner.rb:2
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/starling_runner.rb:1
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote.rb:3
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_without_new_constant_marking'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:376:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:256:in `require_or_load'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:422:in `load_missing_constant'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:19:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `send'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `run'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/environment.rb:13
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:3
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:257:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:139:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/client_runner.rb:2
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/starling_runner.rb:1
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote.rb:3
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_without_new_constant_marking'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:376:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:256:in `require_or_load'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:422:in `load_missing_constant'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:19:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `send'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `run'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/environment.rb:13
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:3
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:257:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:139:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/client_runner.rb:2
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote/runners/starling_runner.rb:1
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/remote.rb:3
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_without_new_constant_marking'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:377:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:376:in `load_file'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:256:in `require_or_load'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:422:in `load_missing_constant'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:19:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `send'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:113:in `run'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/environment.rb:13
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /opt/local/lib/ruby/vendor_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:3
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:176:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:257:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:139:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	 ... 36 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	 ... 36 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	 ... 36 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	 ... 36 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant MemCache (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:18
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	 ... 36 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from ./script/workling_client:17
+	from script/workling_starling_client:7:in `load'
+	from script/workling_starling_client:7
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:440:in `load_missing_constant': uninitialized constant ActiveRecord (NameError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:77:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:89:in `const_missing'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/listen.rb:18
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:159:in `start_load'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/application.rb:236:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:136:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+** Exiting
+=> Loading Rails...
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': /Users/lindsay/Desktop/Projects/progress-bar-example/app/workers/my_worker.rb:8: void value expression (SyntaxError)
+      Set the workling return store to index of the record you are processing
+                                   ^
+/Users/lindsay/Desktop/Projects/progress-bar-example/app/workers/my_worker.rb:8: syntax error, unexpected tIDENTIFIER, expecting kEND
+      Set the workling return store to index of the record you are processing
+                                   ^	from /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:516:in `new_constants_in'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/discovery.rb:11:in `discover!'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/discovery.rb:11:in `each'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/discovery.rb:11:in `discover!'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/init.rb:2:in `evaluate_init_rb'
+	 ... 20 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.9/lib/daemons.rb:135:in `run'
+	from script/workling_client:17
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:ca9923975ebc736c5e9519c35b28ff63"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:f787a98e7f4878483d9f13a07fe8fd66"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:01bedc86d3f0e470d7c94ac9ec8a7cae"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:0cb90b23fa0795e059d371909af03d2c"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:f142a8f9e29f84d90b4f6df903dd0b6c"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:06f8fab713ecb4dbbc65d6b3d0e801c0"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:1d7e4ff5f1fb6a52b57795a13361cae4"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:e7e9677cf94da19487c22c3ce1c70aeb"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:1eb642066c33409c17920de154a6ebaf"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:b3b86ec6d1a9a4c5a5b132c4ebba2de4"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:94df38dccca206e74e3dded29f368326"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:71075e6aa00a9c8125b2593a73fa6bcb"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:e2a082a8089c15c30b1daaf9495067fb"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:e7503bf06d9701216ad2f7505fa497c8"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:64f4b9871a9302752696c8fb18059b9f"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:b0c062c8bf92551355e0f5c60df70332"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+"SETTING RETURN TO 71"
+"SETTING RETURN TO 72"
+"SETTING RETURN TO 73"
+"SETTING RETURN TO 74"
+"SETTING RETURN TO 75"
+"SETTING RETURN TO 76"
+"SETTING RETURN TO 77"
+"SETTING RETURN TO 78"
+"SETTING RETURN TO 79"
+"SETTING RETURN TO 80"
+"SETTING RETURN TO 81"
+"SETTING RETURN TO 82"
+"SETTING RETURN TO 83"
+"SETTING RETURN TO 84"
+"SETTING RETURN TO 85"
+"SETTING RETURN TO 86"
+"SETTING RETURN TO 87"
+"SETTING RETURN TO 88"
+"SETTING RETURN TO 89"
+"SETTING RETURN TO 90"
+"SETTING RETURN TO 91"
+"SETTING RETURN TO 92"
+"SETTING RETURN TO 93"
+"SETTING RETURN TO 94"
+"SETTING RETURN TO 95"
+"SETTING RETURN TO 96"
+"SETTING RETURN TO 97"
+"SETTING RETURN TO 98"
+"SETTING RETURN TO 99"
+"SETTING RETURN TO 100"
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+"my_workers:do_something_fun:5758544fcf1e4158ce74c03b9e6a557a"
+"SETTING RETURN TO 1"
+"SETTING RETURN TO 2"
+"SETTING RETURN TO 3"
+"SETTING RETURN TO 4"
+"SETTING RETURN TO 5"
+"SETTING RETURN TO 6"
+"SETTING RETURN TO 7"
+"SETTING RETURN TO 8"
+"SETTING RETURN TO 9"
+"SETTING RETURN TO 10"
+"SETTING RETURN TO 11"
+"SETTING RETURN TO 12"
+"SETTING RETURN TO 13"
+"SETTING RETURN TO 14"
+"SETTING RETURN TO 15"
+"SETTING RETURN TO 16"
+"SETTING RETURN TO 17"
+"SETTING RETURN TO 18"
+"SETTING RETURN TO 19"
+"SETTING RETURN TO 20"
+"SETTING RETURN TO 21"
+"SETTING RETURN TO 22"
+"SETTING RETURN TO 23"
+"SETTING RETURN TO 24"
+"SETTING RETURN TO 25"
+"SETTING RETURN TO 26"
+"SETTING RETURN TO 27"
+"SETTING RETURN TO 28"
+"SETTING RETURN TO 29"
+"SETTING RETURN TO 30"
+"SETTING RETURN TO 31"
+"SETTING RETURN TO 32"
+"SETTING RETURN TO 33"
+"SETTING RETURN TO 34"
+"SETTING RETURN TO 35"
+"SETTING RETURN TO 36"
+"SETTING RETURN TO 37"
+"SETTING RETURN TO 38"
+"SETTING RETURN TO 39"
+"SETTING RETURN TO 40"
+"SETTING RETURN TO 41"
+"SETTING RETURN TO 42"
+"SETTING RETURN TO 43"
+"SETTING RETURN TO 44"
+"SETTING RETURN TO 45"
+"SETTING RETURN TO 46"
+"SETTING RETURN TO 47"
+"SETTING RETURN TO 48"
+"SETTING RETURN TO 49"
+"SETTING RETURN TO 50"
+"SETTING RETURN TO 51"
+"SETTING RETURN TO 52"
+"SETTING RETURN TO 53"
+"SETTING RETURN TO 54"
+"SETTING RETURN TO 55"
+"SETTING RETURN TO 56"
+"SETTING RETURN TO 57"
+"SETTING RETURN TO 58"
+"SETTING RETURN TO 59"
+"SETTING RETURN TO 60"
+"SETTING RETURN TO 61"
+"SETTING RETURN TO 62"
+"SETTING RETURN TO 63"
+"SETTING RETURN TO 64"
+"SETTING RETURN TO 65"
+"SETTING RETURN TO 66"
+"SETTING RETURN TO 67"
+"SETTING RETURN TO 68"
+"SETTING RETURN TO 69"
+"SETTING RETURN TO 70"
+** Exiting
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+** Exiting
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+** Exiting
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+** Exiting
+=> Loading Rails...
+** Rails loaded.
+** Starting Workling::Remote::Invokers::ThreadedPoller...
+** Use CTRL-C to stop.
+** Exiting
+=> Loading Rails...
+/Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:68:in `raise_unless_connected!': config/workling.yml configured to connect to queue server on localhost:22122 for this environment. could not connect to queue server on this host:port. for starling users: pass starling the port with -p flag when starting it. If you don't want to use Starling, then explicitly set Workling::Remote.dispatcher (see README for an example) (Workling::QueueserverNotFoundError)
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/clients/memcache_queue_client.rb:39:in `connect'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/lib/workling/return/store/starling_return_store.rb:16:in `initialize'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:21:in `new'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/config/environments/development.rb:21:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:356:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/rails/activesupport/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:349:in `load_environment'
+	from /Users/lindsay/Desktop/Projects/progress-bar-example/vendor/plugins/workling/script/../../../../config/../vendor/rails/railties/lib/initializer.rb:138:in `process'
+	 ... 11 levels...
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:138:in `run'
+	from script/workling_client:17

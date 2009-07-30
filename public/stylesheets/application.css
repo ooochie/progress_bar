@@ -1,0 +1,45 @@
+/*-------------------------------------------------
+PROGRESS BAR
+-------------------------------------------------*/
+div#progress_bar_outline {
+	height:20px;
+	width:450px;
+	border:2px solid #666;
+	margin: 0 5px 0 0;
+	float:left;
+}
+div#progress {
+	height:20px;
+	background-color:#d23167;
+	width:0;
+}
+div#percentage{
+	float:left;
+}
+
+
+/*-------------------------------------------------
+GENERAL
+-------------------------------------------------*/
+body {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Verdana";
+  font-size: 13px;
+  color: #333;
+}
+#content {
+  background-color: #FFF6E1;
+  border: 5px solid #d23167;
+  padding: 35px;
+  width: 500px;
+	margin:50px auto;
+}
+h2 {
+  font-size:20px;
+  font-weight:normal;
+  margin:0 0 10px;
+}
+
