@@ -1,0 +1,6 @@
+1. Install & Start Starling
+
+gem sources -a http://gems.github.com/ 
+sudo gem install starling-starling 
+sudo starling -d
+script/workling_client start
